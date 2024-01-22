@@ -1,0 +1,1 @@
+"*.{json,lintstagedrc,yml,yaml}": "prettier --write"

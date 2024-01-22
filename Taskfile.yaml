@@ -1,0 +1,16 @@
+version: "3"
+
+tasks:
+  docs:
+    desc: Start a server which serves the project documentation
+    cmds:
+      - mkdocs serve
+  setup:
+    desc: Install dependencies and setup the project
+    cmds:
+      - pre-commit install --hook-type pre-commit --hook-type commit-msg
+  default:
+    cmds:
+      - task --list
+
+silent: true

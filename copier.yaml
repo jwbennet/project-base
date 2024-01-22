@@ -1,0 +1,4 @@
+# Questions
+project_name:
+  type: str
+  help: Enter your project name.
