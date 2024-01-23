@@ -1,0 +1,3 @@
+# Only pass the docker-entrypoint.sh script into the context for building a Docker image for the project
+*
+!docker-entrypoint.sh

@@ -2,3 +2,20 @@
 project_name:
   type: str
   help: Enter your project name.
+
+# Copier config
+_exclude:
+  # Use default values specified in https://copier.readthedocs.io/en/stable/configuring/#exclude
+  - "copier.yaml"
+  - "copier.yml"
+  - "~*"
+  - "*.py[co]"
+  - "__pycache__"
+  - ".git"
+  - ".DS_Store"
+  - ".svn"
+  # Add custom files to ignore
+  - .dockerignore
+  - docker-entrypoint.sh
+  - Dockerfile
+  - README.md
