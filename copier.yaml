@@ -18,4 +18,5 @@ _exclude:
   - .dockerignore
   - docker-entrypoint.sh
   - Dockerfile
+  - LICENSE
   - README.md
