@@ -7,9 +7,6 @@ on:
       - "main"
     tags:
       - "v*.*.*"
-    pull_requests:
-      branches:
-        - "main"
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
