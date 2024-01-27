@@ -5,23 +5,23 @@
 
   "features": {
     "ghcr.io/devcontainers-contrib/features/copier": {
-      "version": "9.1.1",
+      "version": "9.1.1"
     },
     "ghcr.io/devcontainers-contrib/features/go-task": {
-      "version": "3.33.1",
+      "version": "3.33.1"
     },
     "ghcr.io/devcontainers-contrib/features/mkdocs": {
-      "version": "1.5.3",
+      "version": "1.5.3"
     },
     "ghcr.io/devcontainers/features/node": {
-      "version": "20.11.0",
+      "version": "20.11.0"
     },
     "ghcr.io/devcontainers-contrib/features/pre-commit": {
-      "version": "3.6.0",
+      "version": "3.6.0"
     },
     "ghcr.io/devcontainers/features/python": {
-      "version": "3.12.1",
-    },
+      "version": "3.12.1"
+    }
   },
 
   "customizations": {
@@ -31,8 +31,9 @@
         "files.associations": {
           ".commitlintrc": "yaml",
           ".lintstagedrc": "yaml",
-        },
-      },
-    },
-  },
+          ".prettierrc": "yaml"
+        }
+      }
+    }
+  }
 }
