@@ -1,1 +1,1 @@
-"*.{json,lintstagedrc,yml,yaml}": "prettier --write"
+"*.{json,lintstagedrc,md,yml,yaml}": "prettier --write"
