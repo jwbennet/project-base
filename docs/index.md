@@ -15,6 +15,7 @@ This project uses a [Taskfile](https://taskfile.dev/) and all commands are summa
     .editorconfig           # Configures whitespace handling for IDEs.
     .lintstagedrc           # Configures linting for various file types before Git commit.
     .pre-commit-config.yaml # Configures project Git hooks.
+    .prettierrc             # Configures the Prettier code formatter.
     mkdocs.yml              # Configures how the project documentation is built and deployed.
     Taskfile.yaml           # Configures a task runner which provides shortcuts for project commands.
 
@@ -26,4 +27,5 @@ This project uses a [Taskfile](https://taskfile.dev/) and all commands are summa
 -   [lint-staged](https://www.npmjs.com/package/lint-staged?activeTab=readme#configuration) - Linting for project files
 -   [MkDocs](https://www.mkdocs.org/user-guide/) - Project documentation
 -   [pre-commit](https://pre-commit.com/#usage) - Git hooks
+-   [Prettier](https://prettier.io/) - Code formatter
 -   [Taskfile](https://taskfile.dev/usage/) - Project task runner

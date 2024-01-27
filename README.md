@@ -10,6 +10,7 @@ This project holds templates of the baseline configurations used for projects I 
 -   [lint-staged](https://www.npmjs.com/package/lint-staged?activeTab=readme#configuration) - Linting for project files
 -   [MkDocs](https://www.mkdocs.org/user-guide/) - Project documentation
 -   [pre-commit](https://pre-commit.com/#usage) - Git hooks
+-   [Prettier](https://prettier.io/) - Code formatter
 -   [Taskfile](https://taskfile.dev/usage/) - Project task runner
 
 ## Docker image
