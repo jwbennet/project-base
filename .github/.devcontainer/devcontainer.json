@@ -27,6 +27,12 @@
   "customizations": {
     "vscode": {
       "extensions": ["EditorConfig.EditorConfig", "redhat.vscode-yaml"],
+      "settings": {
+        "files.associations": {
+          ".commitlintrc": "yaml",
+          ".lintstagedrc": "yaml",
+        },
+      },
     },
   },
 }
