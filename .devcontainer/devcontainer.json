@@ -1,0 +1,5 @@
+{
+  "name": "Project Base",
+  "image": "ghcr.io/jwbennet/project-base:latest",
+  "postCreateCommand": "task setup",
+}

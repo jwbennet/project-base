@@ -2,6 +2,10 @@
 project_name:
   type: str
   help: Enter your project name.
+custom_devcontainer_features:
+  type: bool
+  help: Utilize custom features in the devcontainer?
+  default: false
 
 # Copier config
 _exclude:
@@ -16,6 +20,7 @@ _exclude:
   - ".svn"
   # Add custom files to ignore
   - .dockerignore
+  - .github
   - docker-entrypoint.sh
   - Dockerfile
   - LICENSE

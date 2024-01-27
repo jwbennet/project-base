@@ -1,6 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 {
   "name": "{{project_name}}",
+  {%- if custom_devcontainer_features %}
   "image": "mcr.microsoft.com/devcontainers/base:jammy",
   "features": {
     "ghcr.io/devcontainers-contrib/features/copier": {
@@ -22,12 +23,13 @@
       "version": "3.12.1",
     },
   },
-
-  "postCreateCommand": "task setup",
-
   "customizations": {
     "vscode": {
       "extensions": ["EditorConfig.EditorConfig", "redhat.vscode-yaml"],
     },
   },
+  {%- else %}
+  "image": "ghcr.io/jwbennet/project-base:latest",
+  {%- endif %}
+  "postCreateCommand": "task setup"
 }
