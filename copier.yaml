@@ -6,6 +6,25 @@ custom_devcontainer_features:
   type: bool
   help: Utilize custom features in the devcontainer?
   default: false
+git_provider:
+  type: str
+  help: Which Git provider would you like to use?
+  choices:
+    GitHub: github
+  default: github
+github_organization:
+  type: str
+  help: Enter the name of the GitHub organization/user.
+  when: "{{ git_provider == 'github' }}"
+github_repository:
+  type: str
+  help: Enter the name of your GitHub repository.
+  default: "{{ github_organization }}/{{ project_name | lower | replace(' ', '-') }}"
+  when: "{{ git_provider == 'github' }}"
+devcontainer_image:
+  type: str
+  help: Enter the name of your devcontainer image.
+  default: "{% if git_provider == 'github' %}ghcr.io/{{github_repository}}:latest{% else %}{% endif %}"
 
 # Copier config
 _exclude:
