@@ -40,6 +40,6 @@ jobs:
         with:
           subFolder: .github
           imageName: ghcr.io/${{ github.repository }}
-          imageTag: ${{ image_tags }}
+          imageTag: $image_tags
           cacheFrom: ghcr.io/${{ github.repository }}
           push: always
