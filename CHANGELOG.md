@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/jwbennet/project-base/compare/v1.1.0...v1.1.1) (2024-01-28)
+
+
+### Miscellaneous Chores
+
+* release 1.1.1 ([0f6cfae](https://github.com/jwbennet/project-base/commit/0f6cfae586e23b0c5d61b1693fda37a0f7f78cb0))
+
 ## [1.1.0](https://github.com/jwbennet/project-base/compare/v1.0.0...v1.1.0) (2024-01-28)
 
 
