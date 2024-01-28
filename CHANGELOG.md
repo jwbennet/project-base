@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.4](https://github.com/jwbennet/project-base/compare/v1.1.3...v1.1.4) (2024-01-28)
+
+
+### Bug Fixes
+
+* temporarily remove dev container build ([e75b096](https://github.com/jwbennet/project-base/commit/e75b096219f0f65d92a4fe2fed831fa4500ac45f))
+
 ## [1.1.3](https://github.com/jwbennet/project-base/compare/v1.1.2...v1.1.3) (2024-01-28)
 
 
