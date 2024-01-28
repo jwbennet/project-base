@@ -37,6 +37,6 @@ jobs:
         with:
           subFolder: .github
           imageName: ghcr.io/${{ github.repository }}
-          imageTag: ${{ steps.meta.outputs.tags }}
+          imageTag: ${{ join(steps.meta.outputs.tags) }}
           cacheFrom: ghcr.io/${{ github.repository }}
           push: always
