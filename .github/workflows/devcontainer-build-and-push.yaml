@@ -36,8 +36,7 @@ jobs:
         run: |
           echo -n "IMAGE_TAGS=${{ steps.meta.outputs.tags }}" | tr '\n' ',' >> "$GITHUB_ENV"
       - name: Debug image tags
-        run: |
-          echo "${{ IMAGE_TAGS }}"
+        run: echo "$IMAGE_TAGS"
       # - name: Pre-build dev container image
       #   uses: devcontainers/ci@v0.3
       #   with:
