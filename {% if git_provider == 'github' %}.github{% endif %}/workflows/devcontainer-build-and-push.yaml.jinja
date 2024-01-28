@@ -14,18 +14,33 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        id: checkout
-        uses: actions/checkout@v1
+        uses: actions/checkout@v4
       - name: Login to GitHub Container Registry
-        uses: docker/login-action@v2
+        uses: docker/login-action@v3
         with:
           registry: ghcr.io
           username: "{% raw %}${{ github.actor }}{% endraw %}"
           password: "{% raw %}${{ secrets.GITHUB_TOKEN }}{% endraw %}"
+      - name: Extract tags for Docker image
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          flavor: |
+            latest=false
+          tags: |
+            type=raw,value=latest,enable={{is_default_branch}}
+            type=semver,pattern={{version}}
+            type=semver,pattern={{major}}.{{minor}}
+            type=semver,pattern={{major}}
+      - name: Process tags for Docker image
+        id: image
+        run: |
+          echo -n "IMAGE_TAGS=${{ steps.meta.outputs.tags }}" | tr '\n' ',' >> "$GITHUB_OUTPUT"
       - name: Pre-build dev container image
-        uses: devcontainers/ci@v0.2
+        uses: devcontainers/ci@v0.3
         with:
           subFolder: .github
           imageName: "{% raw %}ghcr.io/${{ github.repository }}{% endraw %}"
+          imageTag: "${{ steps.image.outputs.IMAGE_TAGS }}"
           cacheFrom: "{% raw %}ghcr.io/${{ github.repository }}{% endraw %}"
           push: always
