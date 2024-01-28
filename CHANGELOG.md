@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.8](https://github.com/jwbennet/project-base/compare/v1.1.7...v1.1.8) (2024-01-28)
+
+
+### Bug Fixes
+
+* switch to using GITHUB_OUTPUT ([c7cf534](https://github.com/jwbennet/project-base/commit/c7cf53489fee1ce7824d6f14248f96782654c4e5))
+
 ## [1.1.7](https://github.com/jwbennet/project-base/compare/v1.1.6...v1.1.7) (2024-01-28)
 
 
