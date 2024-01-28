@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.7](https://github.com/jwbennet/project-base/compare/v1.1.6...v1.1.7) (2024-01-28)
+
+
+### Bug Fixes
+
+* restore dev container build ([b1e6e61](https://github.com/jwbennet/project-base/commit/b1e6e6129de28831c7fd09a8bf04d3f9180e3ce8))
+
 ## [1.1.6](https://github.com/jwbennet/project-base/compare/v1.1.5...v1.1.6) (2024-01-28)
 
 
