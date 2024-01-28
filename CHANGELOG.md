@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/jwbennet/project-base/compare/v1.0.0...v1.1.0) (2024-01-28)
+
+
+### Features
+
+* syntax highlighting for Jinja2 files ([#9](https://github.com/jwbennet/project-base/issues/9)) ([c42a9d0](https://github.com/jwbennet/project-base/commit/c42a9d0884d5d9f03dc02a73f81cf4178e551e87))
+
 ## 1.0.0 (2024-01-28)
 
 
