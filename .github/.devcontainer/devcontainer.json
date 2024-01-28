@@ -26,7 +26,11 @@
 
   "customizations": {
     "vscode": {
-      "extensions": ["EditorConfig.EditorConfig", "redhat.vscode-yaml"],
+      "extensions": [
+        "EditorConfig.EditorConfig",
+        "redhat.vscode-yaml",
+        "samuelcolvin.jinjahtml"
+      ],
       "settings": {
         "files.associations": {
           ".commitlintrc": "yaml",
