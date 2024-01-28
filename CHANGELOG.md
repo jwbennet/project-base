@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.5](https://github.com/jwbennet/project-base/compare/v1.1.4...v1.1.5) (2024-01-28)
+
+
+### Bug Fixes
+
+* debug image tags environment variable ([7b57341](https://github.com/jwbennet/project-base/commit/7b57341604b78189814c805316f9e96426754143))
+
 ## [1.1.4](https://github.com/jwbennet/project-base/compare/v1.1.3...v1.1.4) (2024-01-28)
 
 
