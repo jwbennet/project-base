@@ -33,15 +33,14 @@ jobs:
             type=semver,pattern={{major}}.{{minor}}
             type=semver,pattern={{major}}
       - name: Process tags for Docker image
+        id: image
         run: |
-          echo -n "IMAGE_TAGS=${{ steps.meta.outputs.tags }}" | tr '\n' ',' >> "$GITHUB_ENV"
-      - name: Debug image tags
-        run: echo
+          echo -n "IMAGE_TAGS=${{ steps.meta.outputs.tags }}" | tr '\n' ',' >> "$GITHUB_OUTPUT"
       - name: Pre-build dev container image
         uses: devcontainers/ci@v0.3
         with:
           subFolder: .github
           imageName: ghcr.io/${{ github.repository }}
-          imageTag: "$IMAGE_TAGS"
+          imageTag: "${{ steps.image.outputs.IMAGE_TAGS }}"
           cacheFrom: ghcr.io/${{ github.repository }}
           push: always
