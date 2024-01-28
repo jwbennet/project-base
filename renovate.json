@@ -1,6 +1,28 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:recommended"
+  "extends": ["config:recommended"],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "fileMatch": [
+        ".github/.devcontainer/devcontainer.json",
+        "{% if git_provider == 'github' %}.github{% endif %}/.devcontainer/devcontainer.json.jinja"
+      ],
+      "matchStrings": [
+        "\"image\": \"(?<depName>mcr.microsoft.com/devcontainers/base):(?<currentValue>.*)\""
+      ],
+      "datasourceTemplate": "docker"
+    },
+    {
+      "customType": "regex",
+      "matchStringsStrategy": "combination",
+      "fileMatch": [".github/.devcontainer/devcontainer.json"],
+      "matchStrings": [
+        "\"ghcr.io/devcontainers/features/go-task\"",
+        "\"version\":\\s*\"(?<currentValue>.*)\""
+      ],
+      "depNameTemplate": "go-task/task",
+      "datasourceTemplate": "github-releases"
+    }
   ]
 }
