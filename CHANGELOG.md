@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/jwbennet/project-base/compare/v1.1.8...v1.2.0) (2024-01-28)
+
+
+### Features
+
+* update GitHub Actions dev container workflow ([#22](https://github.com/jwbennet/project-base/issues/22)) ([462aa82](https://github.com/jwbennet/project-base/commit/462aa82d415017a0964337808a897460778f7c1d))
+
 ## [1.1.8](https://github.com/jwbennet/project-base/compare/v1.1.7...v1.1.8) (2024-01-28)
 
 
