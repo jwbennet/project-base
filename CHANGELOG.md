@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/jwbennet/project-base/compare/v1.1.2...v1.1.3) (2024-01-28)
+
+
+### Bug Fixes
+
+* update CI environment variable reference ([6d74943](https://github.com/jwbennet/project-base/commit/6d74943b3a110fcd114fd38c042943ce9e70f95a))
+
 ## [1.1.2](https://github.com/jwbennet/project-base/compare/v1.1.1...v1.1.2) (2024-01-28)
 
 
