@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/jwbennet/project-base/compare/v1.1.1...v1.1.2) (2024-01-28)
+
+
+### Bug Fixes
+
+* convert Docker tags from newline to comma ([#14](https://github.com/jwbennet/project-base/issues/14)) ([b7b9744](https://github.com/jwbennet/project-base/commit/b7b97443a77edd4819208c27f03ce69745972f89))
+
 ## [1.1.1](https://github.com/jwbennet/project-base/compare/v1.1.0...v1.1.1) (2024-01-28)
 
 
