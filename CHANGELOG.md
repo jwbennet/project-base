@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.6](https://github.com/jwbennet/project-base/compare/v1.1.5...v1.1.6) (2024-01-28)
+
+
+### Bug Fixes
+
+* continued debugging of image tags ([673c6d9](https://github.com/jwbennet/project-base/commit/673c6d960f6714bb3a06b726d31ca9d323fa4fc4))
+
 ## [1.1.5](https://github.com/jwbennet/project-base/compare/v1.1.4...v1.1.5) (2024-01-28)
 
 
