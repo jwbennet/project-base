@@ -32,11 +32,14 @@ jobs:
             type=semver,pattern={{version}}
             type=semver,pattern={{major}}.{{minor}}
             type=semver,pattern={{major}}
+      - name: Process tags for Docker image
+        run: |
+          echo "image_tags=${{ steps.meta.outputs.tags }}" | tr '\n' ',' >> "$GITHUB_ENV"
       - name: Pre-build dev container image
         uses: devcontainers/ci@v0.3
         with:
           subFolder: .github
           imageName: ghcr.io/${{ github.repository }}
-          imageTag: ${{ join(steps.meta.outputs.tags) }}
+          imageTag: ${{ image_tags }}
           cacheFrom: ghcr.io/${{ github.repository }}
           push: always
