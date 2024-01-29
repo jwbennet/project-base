@@ -21,7 +21,12 @@
   ],
   "packageRules": [
     {
-      "matchPackageNames": ["go-task/task"],
+      "matchPackageNames": [
+        "copier-org/copier",
+        "go-task/task",
+        "pre-commit/pre-commit",
+        "python/cpython"
+      ],
       "extractVersion": "^v(?<version>.*)$"
     }
   ]
