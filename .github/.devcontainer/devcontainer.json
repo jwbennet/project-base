@@ -5,18 +5,23 @@
 
   "features": {
     "ghcr.io/devcontainers-contrib/features/copier": {
+      // renovate: datasource=github-tags depName=copier-org/copier
       "version": "9.1.1"
     },
     "ghcr.io/devcontainers-contrib/features/go-task": {
+      // renovate: datasource=github-tags depName=go-task/task
       "version": "3.33.1"
     },
     "ghcr.io/devcontainers-contrib/features/mkdocs": {
+      // renovate: datasource=github-tags depName=mkdocs/mkdocs
       "version": "1.5.3"
     },
     "ghcr.io/devcontainers/features/node": {
+      // renovate: datasource=github-tags depName=nodejs/node versioning=node
       "version": "20.11.0"
     },
     "ghcr.io/devcontainers-contrib/features/pre-commit": {
+      // renovate: datasource=github-tags depName=pre-commit/pre-commit
       "version": "3.6.0"
     },
     "ghcr.io/devcontainers/features/python": {
