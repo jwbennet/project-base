@@ -9,7 +9,7 @@
       "version": "9.1.1"
     },
     "ghcr.io/devcontainers-contrib/features/go-task": {
-      // renovate: datasource=github-tags depName=go-task/task
+      // renovate: datasource=github-tags depName=go-task/task versioning=semver-coerced
       "version": "3.33.1"
     },
     "ghcr.io/devcontainers-contrib/features/mkdocs": {
