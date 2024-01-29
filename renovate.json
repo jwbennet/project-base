@@ -12,7 +12,6 @@
     },
     {
       "customType": "regex",
-      "matchStringsStrategy": "combination",
       "fileMatch": ["devcontainer.json", "devcontainer.json.jinja"],
       "matchStrings": [
         "datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\s*\"version\":\\s*\"(?<currentValue>.*)\""
