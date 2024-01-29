@@ -18,5 +18,11 @@
       ],
       "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
     }
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": ["go-task/task"],
+      "extractVersion": "^v(?<version>.*)$"
+    }
   ]
 }
