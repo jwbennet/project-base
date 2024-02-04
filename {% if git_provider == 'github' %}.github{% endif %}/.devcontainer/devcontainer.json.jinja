@@ -4,28 +4,34 @@
   {%- if custom_devcontainer_features %}
   "image": "mcr.microsoft.com/devcontainers/base:22.04",
   "features": {
-    "ghcr.io/devcontainers-contrib/features/copier": {
-      // renovate: datasource=github-tags depName=copier-org/copier
+    // renovate: depType=devcontainerFeature datasource=docker
+    "ghcr.io/devcontainers-contrib/features/copier:7.0.12": {
+      // renovate: depType=devDependencies datasource=github-tags depName=copier-org/copier extractVersion=true
       "version": "9.1.1"
     },
-    "ghcr.io/devcontainers-contrib/features/go-task": {
-      // renovate: datasource=github-tags depName=go-task/task
+    // renovate: depType=devcontainerFeature datasource=docker
+    "ghcr.io/devcontainers-contrib/features/go-task:1.0.4": {
+      // renovate: depType=devDependencies datasource=github-tags depName=go-task/task extractVersion=true
       "version": "3.33.1"
     },
-    "ghcr.io/devcontainers-contrib/features/mkdocs": {
-      // renovate: datasource=github-tags depName=mkdocs/mkdocs
+    // renovate: depType=devcontainerFeature datasource=docker
+    "ghcr.io/devcontainers-contrib/features/mkdocs:2.0.17": {
+      // renovate: depType=devDependencies datasource=github-tags depName=mkdocs/mkdocs
       "version": "1.5.3"
     },
-    "ghcr.io/devcontainers/features/node": {
-      // renovate: datasource=github-tags depName=nodejs/node versioning=node
+    // renovate: depType=devcontainerFeature datasource=docker
+    "ghcr.io/devcontainers/features/node:1.3.1": {
+      // renovate: depType=devDependencies datasource=github-tags depName=nodejs/node versioning=node
       "version": "20.11.0"
     },
-    "ghcr.io/devcontainers-contrib/features/pre-commit": {
-      // renovate: datasource=github-tags depName=pre-commit/pre-commit
+    // renovate: depType=devcontainerFeature datasource=docker
+    "ghcr.io/devcontainers-contrib/features/pre-commit:2.0.16": {
+      // renovate: depType=devDependencies datasource=github-tags depName=pre-commit/pre-commit extractVersion=true
       "version": "3.6.0"
     },
-    "ghcr.io/devcontainers/features/python": {
-      // renovate: datasource=github-tags depName=python/cpython
+    // renovate: depType=devcontainerFeature datasource=docker
+    "ghcr.io/devcontainers/features/python:1.3.1": {
+      // renovate: depType=devDependencies datasource=github-tags depName=python/cpython extractVersion=true
       "version": "3.12.1"
     }
   },
