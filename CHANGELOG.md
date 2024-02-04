@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/jwbennet/project-base/compare/v1.2.0...v1.3.0) (2024-02-04)
+
+
+### Features
+
+* Move configuration files to .github directory ([4c1a52e](https://github.com/jwbennet/project-base/commit/4c1a52e10159eae5ac770dabead9f94e0f5a6094))
+
 ## [1.2.0](https://github.com/jwbennet/project-base/compare/v1.1.8...v1.2.0) (2024-01-28)
 
 
