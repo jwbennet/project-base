@@ -18,6 +18,15 @@
       ],
       "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}",
       "extractVersionTemplate": "{{#if (equals extractVersion 'true')}}^v(?<version>.*)${{else if extractVersion}}{{{extractVersion}}}{{else}}^(?<version>.*)${{/if}}"
+    },
+    {
+      "customType": "regex",
+      "fileMatch": [".pre-commit-config.yaml"],
+      "matchStrings": [
+        "repo:\\s*https://github.com/(?<depName>.*?)\\n\\s*rev:\\s*(?<currentValue>.*)"
+      ],
+      "datasourceTemplate": "github-tags",
+      "versioningTemplate": "semver"
     }
   ],
   "packageRules": [
