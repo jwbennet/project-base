@@ -5,32 +5,32 @@
 
   "features": {
     // renovate: depType=devcontainerFeature datasource=docker
-    "ghcr.io/devcontainers-contrib/features/copier:7.0.12": {
+    "ghcr.io/devcontainers-contrib/features/copier:7.0.13": {
       // renovate: depType=devDependencies datasource=github-tags depName=copier-org/copier extractVersion=true
       "version": "9.1.1"
     },
     // renovate: depType=devcontainerFeature datasource=docker
-    "ghcr.io/devcontainers-contrib/features/go-task:1.0.4": {
+    "ghcr.io/devcontainers-contrib/features/go-task:1.0.5": {
       // renovate: depType=devDependencies datasource=github-tags depName=go-task/task extractVersion=true
-      "version": "3.33.1"
+      "version": "3.34.1"
     },
     // renovate: depType=devcontainerFeature datasource=docker
-    "ghcr.io/devcontainers-contrib/features/mkdocs:2.0.17": {
+    "ghcr.io/devcontainers-contrib/features/mkdocs:2.0.18": {
       // renovate: depType=devDependencies datasource=github-tags depName=mkdocs/mkdocs
       "version": "1.5.3"
     },
     // renovate: depType=devcontainerFeature datasource=docker
-    "ghcr.io/devcontainers/features/node:1.3.1": {
+    "ghcr.io/devcontainers/features/node:1.4.0": {
       // renovate: depType=devDependencies datasource=github-tags depName=nodejs/node versioning=node
       "version": "20.11.0"
     },
     // renovate: depType=devcontainerFeature datasource=docker
-    "ghcr.io/devcontainers-contrib/features/pre-commit:2.0.16": {
+    "ghcr.io/devcontainers-contrib/features/pre-commit:2.0.17": {
       // renovate: depType=devDependencies datasource=github-tags depName=pre-commit/pre-commit extractVersion=true
       "version": "3.6.0"
     },
     // renovate: depType=devcontainerFeature datasource=docker
-    "ghcr.io/devcontainers/features/python:1.3.1": {
+    "ghcr.io/devcontainers/features/python:1.3.2": {
       // renovate: depType=devDependencies datasource=github-tags depName=python/cpython extractVersion=true
       "version": "3.12.1"
     }
