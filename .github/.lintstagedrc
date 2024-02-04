@@ -1,0 +1,1 @@
+"*.{json,lintstagedrc,md,yml,yaml}": "prettier --config=.github/.prettierrc --write"

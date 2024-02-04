@@ -35,12 +35,12 @@ jobs:
       - name: Process tags for Docker image
         id: image
         run: |
-          echo -n "IMAGE_TAGS=${{ steps.meta.outputs.tags }}" | tr '\n' ',' >> "$GITHUB_OUTPUT"
+          echo -n "IMAGE_TAGS={% raw %}${{ steps.meta.outputs.tags }}{% endraw %}" | tr '\n' ',' >> "$GITHUB_OUTPUT"
       - name: Pre-build dev container image
         uses: devcontainers/ci@v0.3
         with:
           subFolder: .github
           imageName: "{% raw %}ghcr.io/${{ github.repository }}{% endraw %}"
-          imageTag: "${{ steps.image.outputs.IMAGE_TAGS }}"
+          imageTag: "{% raw %}${{ steps.image.outputs.IMAGE_TAGS }}{% endraw %}"
           cacheFrom: "{% raw %}ghcr.io/${{ github.repository }}{% endraw %}"
           push: always

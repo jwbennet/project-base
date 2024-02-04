@@ -4,11 +4,11 @@ tasks:
   docs:
     desc: Start a server which serves the project documentation
     cmds:
-      - mkdocs serve
+      - mkdocs serve --config-file=.github/.mkdocsrc
   setup:
     desc: Install dependencies and setup the project
     cmds:
-      - pre-commit install --hook-type pre-commit --hook-type commit-msg
+      - pre-commit install --config .github/.precommitrc --hook-type pre-commit --hook-type commit-msg
   default:
     cmds:
       - task --list
