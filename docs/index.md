@@ -18,7 +18,7 @@ This project uses a [Taskfile](https://taskfile.dev/) and all commands are summa
         index.md            # The documentation homepage.
         ...                 # Other project documentation Markdown and assets.
     .editorconfig           # Configures whitespace handling for IDEs.
-    renovate.josn           # Configures the dependency update system
+    renovate.json           # Configures the dependency update system
     Taskfile.yaml           # Configures a task runner which provides shortcuts for project commands.
 
 ## Tooling Documentation
