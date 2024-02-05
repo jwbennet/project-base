@@ -6,7 +6,7 @@
     "github>jwbennet/.github:renovate-pre-commit"
   ],
   "github-actions": {
-    "fileMatch": [".github/workflows/.+\\.ya?ml.jinja$"]
+    "fileMatch": ["workflows/.+\\.ya?ml.jinja$"]
   },
   "packageRules": [
     {
