@@ -40,7 +40,7 @@ jobs:
         uses: devcontainers/ci@v0.3
         with:
           subFolder: .github
-          imageName: "{% raw %}ghcr.io/${{ github.repository }}-dev-container{% endraw %}"
+          imageName: "{{devcontainer_image}}"
           imageTag: "{% raw %}${{ steps.image.outputs.IMAGE_TAGS }}{% endraw %}"
           cacheFrom: "{% raw %}ghcr.io/${{ github.repository }}{% endraw %}"
           push: always
