@@ -40,7 +40,9 @@ _exclude:
   # Add custom files to ignore
   - .dockerignore
   - .github
+  - CHANGELOG.md
   - docker-entrypoint.sh
   - Dockerfile
   - LICENSE
   - README.md
+  - version.txt
