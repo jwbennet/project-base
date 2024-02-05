@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/jwbennet/project-base/compare/v1.5.1...v1.6.0) (2024-02-05)
+
+
+### Features
+
+* Support Release Please in generated project ([f394d34](https://github.com/jwbennet/project-base/commit/f394d348e61f7e13d85218cdb8cf22cb80bedd08))
+
 ## [1.5.1](https://github.com/jwbennet/project-base/compare/v1.5.0...v1.5.1) (2024-02-05)
 
 ### Bug Fixes
