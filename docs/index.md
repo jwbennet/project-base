@@ -8,15 +8,17 @@ This project uses a [Taskfile](https://taskfile.dev/) and all commands are summa
 
     .devcontainer/
         .devcontainer.json  # Provides configuration for creating a development environment with all necessary tooling installed.
+    .github/
+        .commitlintrc       # Configures linting for commit messages.
+        .lintstagedrc       # Configures linting for various file types before Git commit.
+        .mkdocsrc           # Configures how the project documentation is built and deployed.
+        .precommitrc        # Configures project Git hooks.
+        .prettierrc         # Configures the Prettier code formatter.
     docs/
         index.md            # The documentation homepage.
         ...                 # Other project documentation Markdown and assets.
-    .commitlintrc           # Configures linting for commit messages.
     .editorconfig           # Configures whitespace handling for IDEs.
-    .lintstagedrc           # Configures linting for various file types before Git commit.
-    .pre-commit-config.yaml # Configures project Git hooks.
-    .prettierrc             # Configures the Prettier code formatter.
-    mkdocs.yml              # Configures how the project documentation is built and deployed.
+    renovate.josn           # Configures the dependency update system
     Taskfile.yaml           # Configures a task runner which provides shortcuts for project commands.
 
 ## Tooling Documentation
@@ -28,4 +30,5 @@ This project uses a [Taskfile](https://taskfile.dev/) and all commands are summa
 -   [MkDocs](https://www.mkdocs.org/user-guide/) - Project documentation
 -   [pre-commit](https://pre-commit.com/#usage) - Git hooks
 -   [Prettier](https://prettier.io/) - Code formatter
+-   [Renovate](https://docs.renovatebot.com/) - Dependency updater
 -   [Taskfile](https://taskfile.dev/usage/) - Project task runner

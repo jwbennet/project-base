@@ -11,6 +11,7 @@ This project holds templates of the baseline configurations used for projects I 
 -   [MkDocs](https://www.mkdocs.org/user-guide/) - Project documentation
 -   [pre-commit](https://pre-commit.com/#usage) - Git hooks
 -   [Prettier](https://prettier.io/) - Code formatter
+-   [Renovate](https://docs.renovatebot.com/) - Dependency updater
 -   [Taskfile](https://taskfile.dev/usage/) - Project task runner
 
 ## Docker image
