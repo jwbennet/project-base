@@ -5,6 +5,9 @@
     "github>jwbennet/.github:renovate-dev-containers",
     "github>jwbennet/.github:renovate-pre-commit"
   ],
+  "github-actions": {
+    "fileMatch": [".github/workflows/.+\\.ya?ml.jinja$"]
+  },
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
