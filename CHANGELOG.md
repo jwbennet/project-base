@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.5.0](https://github.com/jwbennet/project-base/compare/v1.4.0...v1.5.0) (2024-02-05)
+
+
+### Features
+
+* Rename generated dev container image ([9826061](https://github.com/jwbennet/project-base/commit/98260610570e8fbbf62de44f5c88a9f18b98c967))
+
+
+### Bug Fixes
+
+* Escape dev container image tags ([69dd754](https://github.com/jwbennet/project-base/commit/69dd75491f75da5ea1d3d3f3424508a92c3fcab1))
+* Ignore project metadata when copying ([2574a05](https://github.com/jwbennet/project-base/commit/2574a05e741d22cf2e5782051bb7a1131b7179d1))
+
 ## [1.4.0](https://github.com/jwbennet/project-base/compare/v1.3.0...v1.4.0) (2024-02-05)
 
 
