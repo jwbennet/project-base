@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/jwbennet/project-base/compare/v1.3.0...v1.4.0) (2024-02-05)
+
+
+### Features
+
+* Add baseline config files to copier template ([b7956ac](https://github.com/jwbennet/project-base/commit/b7956ace217ad972c3732ae4025de2487a22b77d))
+
 ## [1.3.0](https://github.com/jwbennet/project-base/compare/v1.2.0...v1.3.0) (2024-02-04)
 
 ### Features
