@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.6.1](https://github.com/jwbennet/project-base/compare/v1.6.0...v1.6.1) (2024-02-05)
+
+
+### Bug Fixes
+
+* Create Renovate template ([315a03f](https://github.com/jwbennet/project-base/commit/315a03f602b445fa6e774c03de7e6f801f2c5330))
+* No longer ignore versioning files ([0f347b4](https://github.com/jwbennet/project-base/commit/0f347b43a21beff8df91ce270d7399d5a8e27d2b))
+
 ## [1.6.0](https://github.com/jwbennet/project-base/compare/v1.5.1...v1.6.0) (2024-02-05)
 
 
