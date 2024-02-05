@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.5.1](https://github.com/jwbennet/project-base/compare/v1.5.0...v1.5.1) (2024-02-05)
+
+
+### Bug Fixes
+
+* Fix generated dev container base image ([b6eb9c3](https://github.com/jwbennet/project-base/commit/b6eb9c33a63513a95d61d0b500ef4a4717c1c6de))
+* Taskfile handles non-GitHub project ([dec9583](https://github.com/jwbennet/project-base/commit/dec958372f3a001eff921c0f9469c7abe7c3372d))
+* Use provided dev container image name in workflow ([f108964](https://github.com/jwbennet/project-base/commit/f108964ed431b1818af8593e74ba2e426f44679c))
+
 ## [1.5.0](https://github.com/jwbennet/project-base/compare/v1.4.0...v1.5.0) (2024-02-05)
 
 ### Features
