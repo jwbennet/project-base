@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/jwbennet/project-base/compare/v1.6.3...v2.0.0) (2024-02-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* Alter name of base dev container image
+
+### Features
+
+* Alter name of base dev container image ([b1b26e6](https://github.com/jwbennet/project-base/commit/b1b26e6d716535986953c543134dff901dc20949))
+
 ## [1.6.3](https://github.com/jwbennet/project-base/compare/v1.6.2...v1.6.3) (2024-02-08)
 
 
