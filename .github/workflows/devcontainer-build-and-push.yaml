@@ -40,7 +40,7 @@ jobs:
         uses: devcontainers/ci@v0.3
         with:
           subFolder: .github
-          imageName: ghcr.io/${{ github.repository }}
+          imageName: ghcr.io/${{ github.repository }}-dev-container
           imageTag: "${{ steps.image.outputs.IMAGE_TAGS }}"
           cacheFrom: ghcr.io/${{ github.repository }}
           push: always
