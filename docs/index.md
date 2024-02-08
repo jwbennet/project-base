@@ -28,7 +28,7 @@ This project uses a [Taskfile](https://taskfile.dev/) and all commands are summa
 -   [EditorConfig](https://editorconfig.org/) - IDE whitespace configuration
 -   [lint-staged](https://www.npmjs.com/package/lint-staged?activeTab=readme#configuration) - Linting for project files
 -   [MkDocs](https://www.mkdocs.org/user-guide/) - Project documentation
--   [pre-commit](https://pre-commit.com/#usage) - Git hooks
+-   [pre-commit](https://pre-commit.com/#usage) - Manages Git hooks
 -   [Prettier](https://prettier.io/) - Code formatter
 -   [Renovate](https://docs.renovatebot.com/) - Dependency updater
 -   [Taskfile](https://taskfile.dev/usage/) - Project task runner
