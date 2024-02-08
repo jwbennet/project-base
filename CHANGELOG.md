@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.3](https://github.com/jwbennet/project-base/compare/v1.6.2...v1.6.3) (2024-02-08)
+
+
+### Bug Fixes
+
+* Update file associations for new rc files ([bbb18bc](https://github.com/jwbennet/project-base/commit/bbb18bc9938b8728eedc87bfb14bf5ca861036d6))
+
 ## [1.6.2](https://github.com/jwbennet/project-base/compare/v1.6.1...v1.6.2) (2024-02-05)
 
 ### Bug Fixes
