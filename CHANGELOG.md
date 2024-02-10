@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/jwbennet/project-base/compare/v2.0.0...v2.1.0) (2024-02-10)
+
+
+### Features
+
+* Pin project-base container image ([f276a79](https://github.com/jwbennet/project-base/commit/f276a796f88fc489db24c35130397b67092c73a2))
+
 ## [2.0.0](https://github.com/jwbennet/project-base/compare/v1.6.3...v2.0.0) (2024-02-08)
 
 
