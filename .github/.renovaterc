@@ -5,6 +5,8 @@
     "github>jwbennet/.github:renovate-dev-containers",
     "github>jwbennet/.github:renovate-pre-commit"
   ],
+  "repositories": ["jwbennet/project-base"],
+  "gitAuthor": "renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
   "github-actions": {
     "fileMatch": ["workflows/.+\\.ya?ml.jinja$"]
   },

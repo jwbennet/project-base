@@ -49,7 +49,8 @@
           ".lintstagedrc": "yaml",
           ".mkdocsrc": "yaml",
           ".precommitrc": "yaml",
-          ".prettierrc": "yaml"
+          ".prettierrc": "yaml",
+          ".renovaterc": "json"
         }
       }
     }
