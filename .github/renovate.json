@@ -9,8 +9,6 @@
   "github-actions": {
     "fileMatch": ["workflows/.+\\.ya?ml.jinja$"]
   },
-  "semanticCommitType": "deps",
-  "semanticCommitScope": null,
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
