@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.2.0](https://github.com/jwbennet/project-base/compare/v2.1.0...v2.2.0) (2024-02-11)
+
+
+### Features
+
+* Renovate GitHub Actions workflow ([e86b563](https://github.com/jwbennet/project-base/commit/e86b563894138b8e50eba714dc90d49b41454f38))
+
+
+### Bug Fixes
+
+* Apply Renovate updates to template files ([4fcba31](https://github.com/jwbennet/project-base/commit/4fcba31a35b6949a9adc577d6749382fa768d778))
+
 ## [2.1.0](https://github.com/jwbennet/project-base/compare/v2.0.0...v2.1.0) (2024-02-10)
 
 
