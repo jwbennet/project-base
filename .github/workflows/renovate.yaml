@@ -16,3 +16,4 @@ jobs:
           configurationFile: .github/renovate.json
         env:
           RENOVATE_ONBOARDING: false
+          RENOVATE_REPOSITORIES: "jwbennet/project-base"
