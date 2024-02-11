@@ -2,7 +2,8 @@ name: Dependency Updates
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 18 * * *"
+    # Cron executes in UTC
+    - cron: "0 23 * * *"
 jobs:
   renovate:
     runs-on: ubuntu-latest
