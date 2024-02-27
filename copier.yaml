@@ -2,6 +2,12 @@
 project_name:
   type: str
   help: Enter your project name.
+project_type:
+  type: str
+  help: Which type of project to copy?
+  choices:
+    Generic: generic
+  default: generic
 custom_devcontainer_features:
   type: bool
   help: Utilize custom features in the devcontainer?
@@ -27,20 +33,4 @@ devcontainer_image:
   default: "{% if git_provider == 'github' %}ghcr.io/{{github_repository}}-dev-container{% else %}{% endif %}"
 
 # Copier config
-_exclude:
-  # Use default values specified in https://copier.readthedocs.io/en/stable/configuring/#exclude
-  - "copier.yaml"
-  - "copier.yml"
-  - "~*"
-  - "*.py[co]"
-  - "__pycache__"
-  - ".git"
-  - ".DS_Store"
-  - ".svn"
-  # Add custom files to ignore
-  - .dockerignore
-  - .github
-  - docker-entrypoint.sh
-  - Dockerfile
-  - LICENSE
-  - README.md
+_subdirectory: "{{ project_type }}"

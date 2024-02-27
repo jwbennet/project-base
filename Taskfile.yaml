@@ -9,6 +9,14 @@ tasks:
     desc: Install dependencies and setup the project
     cmds:
       - pre-commit install --config .github/.precommitrc --hook-type pre-commit --hook-type commit-msg
+  test:
+    desc: Executes copier to generate a copy of the project
+    cmds:
+      - copier copy --vcs-ref HEAD . tmp/ --data project_name=Testing --data custom_devcontainer_features=false --data git_provider=github --data github_organization=jwbennet
+  test-clean:
+    desc: Clean up previous test executions
+    cmds:
+      - rm -rf tmp/
   default:
     cmds:
       - task --list
