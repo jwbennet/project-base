@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.4.0](https://github.com/jwbennet/project-base/compare/v2.3.0...v2.4.0) (2024-02-27)
+
+
+### Features
+
+* Ansible project support ([c0c54c5](https://github.com/jwbennet/project-base/commit/c0c54c57421c2e6ed76b4f21dee15cad7b702f92))
+
 ## [2.3.0](https://github.com/jwbennet/project-base/compare/v2.2.0...v2.3.0) (2024-02-27)
 
 
