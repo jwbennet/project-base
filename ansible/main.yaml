@@ -1,0 +1,7 @@
+---
+- name: Demo Playbook
+  hosts: all
+  tasks:
+    - name: Debug information
+      ansible.builtin.debug:
+        msg: "The hostname is {{ ansible_hostname }}"

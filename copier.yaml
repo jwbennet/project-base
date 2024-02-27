@@ -6,6 +6,7 @@ project_type:
   type: str
   help: Which type of project to copy?
   choices:
+    Ansible: ansible
     Generic: generic
   default: generic
 custom_devcontainer_features:

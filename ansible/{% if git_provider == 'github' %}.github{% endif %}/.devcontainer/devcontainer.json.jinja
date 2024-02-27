@@ -1,0 +1,12 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+{
+  "name": "{{project_name}}",
+  "image": "ghcr.io/jwbennet/project-base-dev-container:2.2.0",
+  "features": {
+    // renovate: depType=devcontainerFeature datasource=docker
+    "ghcr.io/devcontainers-contrib/features/ansible:2.0.17": {
+      // renovate: depType=devDependencies datasource=github-tags depName=ansible/ansible extractVersion=true
+      "version": "2.16.3"
+    }
+  }
+}

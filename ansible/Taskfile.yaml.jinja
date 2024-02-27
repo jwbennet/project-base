@@ -1,0 +1,34 @@
+version: "3"
+
+tasks:
+  docs:
+    desc: Start a server which serves the project documentation
+    cmds:
+      - mkdocs serve {% if git_provider == 'github' %}--config-file=.github/.mkdocsrc{% endif %}
+  inventory:
+    desc: Display the inventory as seen from Ansible in graph form
+    cmds:
+      - ansible-inventory --graph
+  inventory-list:
+    desc: Display the inventory as seen from Ansible in list form
+    cmds:
+      - ansible-inventory --list
+  lint:
+    desc: Check the syntax of Ansible playbooks
+    cmds:
+      - ansible-lint
+  run:
+    desc: Run playbook
+    cmds:
+      - ansible-playbook main.yaml
+  setup:
+    desc: Install dependencies and setup the project
+    cmds:
+      - pre-commit install {%- if git_provider == 'github' %} --config .github/.precommitrc{% endif %} --hook-type pre-commit --hook-type commit-msg
+      - pip install --user ansible-lint
+      - ansible-galaxy install -r requirements.yaml
+  default:
+    cmds:
+      - task --list
+
+silent: true
