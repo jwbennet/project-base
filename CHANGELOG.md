@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.3.0](https://github.com/jwbennet/project-base/compare/v2.2.0...v2.3.0) (2024-02-27)
+
+
+### Features
+
+* Move copier files to subdirectory ([da9ff67](https://github.com/jwbennet/project-base/commit/da9ff67c2c08723c2ac6690279d1089df18a715e))
+
+
+### Bug Fixes
+
+* Handle image tag appropriately ([1879c04](https://github.com/jwbennet/project-base/commit/1879c049d013bb6bad19384fa2e10e419868cde9))
+
 ## [2.2.0](https://github.com/jwbennet/project-base/compare/v2.1.0...v2.2.0) (2024-02-11)
 
 
