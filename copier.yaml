@@ -13,6 +13,7 @@ custom_devcontainer_features:
   type: bool
   help: Utilize custom features in the devcontainer?
   default: false
+  when: "{{ project_type == 'generic' }}"
 git_provider:
   type: str
   help: Which Git provider would you like to use?
