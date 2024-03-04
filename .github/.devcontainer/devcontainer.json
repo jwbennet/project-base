@@ -12,7 +12,7 @@
     // renovate: depType=devcontainerFeature datasource=docker
     "ghcr.io/devcontainers-contrib/features/go-task:1.0.5": {
       // renovate: depType=devDependencies datasource=github-tags depName=go-task/task extractVersion=true
-      "version": "3.35.0"
+      "version": "3.35.1"
     },
     // renovate: depType=devcontainerFeature datasource=docker
     "ghcr.io/devcontainers-contrib/features/mkdocs:2.0.18": {
