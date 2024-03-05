@@ -2,6 +2,9 @@
 project_name:
   type: str
   help: Enter your project name.
+project_description:
+  type: str
+  help: Enter a description for the project.
 project_type:
   type: str
   help: Which type of project to copy?
@@ -33,6 +36,15 @@ devcontainer_image:
   type: str
   help: Enter the name of your devcontainer image.
   default: "{% if git_provider == 'github' %}ghcr.io/{{github_repository}}-dev-container{% else %}{% endif %}"
+contact_name:
+  type: str
+  help: Enter the primary contact name for this project.
+contact_email:
+  type: str
+  help: Enter the primary contact email address for this project.
+contact_linkedin:
+  type: str
+  help: Enter the primary contact's LinkedIn username
 
 # Copier config
 _subdirectory: "{{ project_type }}"
