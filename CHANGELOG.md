@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.4.1](https://github.com/jwbennet/project-base/compare/v2.4.0...v2.4.1) (2024-03-20)
+
+
+### Bug Fixes
+
+* Prompt for custom dev container only for generic projects ([b3ecbfa](https://github.com/jwbennet/project-base/commit/b3ecbfa1fbeb3e225e5fa831328b224b5c48c76d))
+
 ## [2.4.0](https://github.com/jwbennet/project-base/compare/v2.3.0...v2.4.0) (2024-02-27)
 
 
