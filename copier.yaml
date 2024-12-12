@@ -36,3 +36,4 @@ devcontainer_image:
 
 # Copier config
 _subdirectory: "{{ project_type }}"
+_answers_file: ".github/.projectrc"
