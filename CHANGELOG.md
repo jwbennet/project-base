@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.0](https://github.com/jwbennet/project-base/compare/v2.4.1...v2.5.0) (2024-12-12)
+
+
+### Features
+
+* track answers file for copier selections ([813e0d5](https://github.com/jwbennet/project-base/commit/813e0d5bdbcf552da34eeebadfbfd3991d730e3e))
+
 ## [2.4.1](https://github.com/jwbennet/project-base/compare/v2.4.0...v2.4.1) (2024-03-20)
 
 
