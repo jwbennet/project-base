@@ -22,12 +22,12 @@
     // renovate: depType=devcontainerFeature datasource=docker
     "ghcr.io/devcontainers/features/node:1.6.1": {
       // renovate: depType=devDependencies datasource=github-tags depName=nodejs/node versioning=node
-      "version": "20.18.1"
+      "version": "22.12.0"
     },
     // renovate: depType=devcontainerFeature datasource=docker
     "ghcr.io/devcontainers-contrib/features/pre-commit:2.0.17": {
       // renovate: depType=devDependencies datasource=github-tags depName=pre-commit/pre-commit extractVersion=true
-      "version": "3.8.0"
+      "version": "4.0.1"
     },
     // renovate: depType=devcontainerFeature datasource=docker
     "ghcr.io/devcontainers/features/python:1.6.5": {
