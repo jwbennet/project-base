@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.5.1](https://github.com/jwbennet/project-base/compare/v2.5.0...v2.5.1) (2024-12-12)
+
+
+### Bug Fixes
+
+* add support for answers file to Ansible projects ([1213658](https://github.com/jwbennet/project-base/commit/12136584fe683f7106fc4b647705ed26f2afaaa4))
+* update VS Code configuration to map copier answers template file ([5a6c15d](https://github.com/jwbennet/project-base/commit/5a6c15d69d3bfa637bacecfa7f5a76ddff1619c6))
+
 ## [2.5.0](https://github.com/jwbennet/project-base/compare/v2.4.1...v2.5.0) (2024-12-12)
 
 
