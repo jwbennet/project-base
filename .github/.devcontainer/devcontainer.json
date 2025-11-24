@@ -22,7 +22,7 @@
     // renovate: depType=devcontainerFeature datasource=docker
     "ghcr.io/devcontainers/features/node:1.6.3": {
       // renovate: depType=devDependencies datasource=github-tags depName=nodejs/node versioning=node
-      "version": "22.21.1"
+      "version": "24.11.1"
     },
     // renovate: depType=devcontainerFeature datasource=docker
     "ghcr.io/devcontainers-contrib/features/pre-commit:2.0.17": {
