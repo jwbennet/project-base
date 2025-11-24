@@ -10,12 +10,12 @@
       "version": "9.11.0"
     },
     // renovate: depType=devcontainerFeature datasource=docker
-    "ghcr.io/devcontainers-contrib/features/go-task:1.0.5": {
+    "ghcr.io/devcontainers-extra/features/go-task:1.0.6": {
       // renovate: depType=devDependencies datasource=github-tags depName=go-task/task extractVersion=true
       "version": "3.45.5"
     },
     // renovate: depType=devcontainerFeature datasource=docker
-    "ghcr.io/devcontainers-contrib/features/mkdocs:2.0.18": {
+    "ghcr.io/devcontainers-extra/features/mkdocs:2.0.19": {
       // renovate: depType=devDependencies datasource=github-tags depName=mkdocs/mkdocs
       "version": "1.6.1"
     },
@@ -25,7 +25,7 @@
       "version": "24.11.1"
     },
     // renovate: depType=devcontainerFeature datasource=docker
-    "ghcr.io/devcontainers-contrib/features/pre-commit:2.0.17": {
+    "ghcr.io/devcontainers-extra/features/pre-commit:2.0.18": {
       // renovate: depType=devDependencies datasource=github-tags depName=pre-commit/pre-commit extractVersion=true
       "version": "4.5.0"
     },
