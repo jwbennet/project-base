@@ -23,7 +23,7 @@ jobs:
           password: "{% raw %}${{ secrets.GITHUB_TOKEN }}{% endraw %}"
       - name: Extract tags for Docker image
         id: meta
-        uses: docker/metadata-action@v5.9.0
+        uses: docker/metadata-action@v5.10.0
         with:
           flavor: |
             latest=false
