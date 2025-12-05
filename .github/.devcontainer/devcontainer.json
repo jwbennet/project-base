@@ -32,7 +32,7 @@
     // renovate: depType=devcontainerFeature datasource=docker
     "ghcr.io/devcontainers/features/python:1.8.0": {
       // renovate: depType=devDependencies datasource=github-tags depName=python/cpython extractVersion=true
-      "version": "3.14.0"
+      "version": "3.14.2"
     }
   },
 
